@@ -1,0 +1,24 @@
+Name:                arrowee
+Version:             0.0.0
+Synopsis:            Arrowised iteratee
+Description:         Arrowised iteratee
+License:             BSD3
+License-file:        LICENSE
+Author:              Mitsutoshi Aoe
+Maintainer:          maoe@foldr.in
+Copyright:           Copyright (c) 2010 Mitsutoshi Aoe
+Category:            Data
+Build-type:          Simple
+Stability:           alpha
+Extra-source-files:  README.markdown
+Cabal-version:       >=1.2
+
+Source-repository:   head
+  type:              git
+  location:          git://github.com/maoe/arrowee.git
+
+Library
+  Hs-source-dirs:    src
+  Exposed-modules:   Data.Arrowee
+  Build-depends:     base >= 4
+  
